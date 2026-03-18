@@ -31,7 +31,7 @@ jobs:
 
       # Сборка проекта
       - name: Build project
-        run: npm run build
+        run: npm run build -- --mode production
 
       # Загружаем артефакт для Pages
       - name: Upload artifact for GitHub Pages
