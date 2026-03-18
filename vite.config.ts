@@ -4,7 +4,7 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/isomoph-experiments/',
+  base: '/isomoph/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
